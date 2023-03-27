@@ -24,6 +24,6 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Mock Up
-Please view live URL:
-[Portfolio](https://rxn3202.github.io/Richard-Nguyen-Portfolio/)
+Please view live URL: [Portfolio](https://rxn3202.github.io/Richard-Nguyen-Portfolio/)
+
 ![alt text](assets/images/default-image-placeholder.jpg)
