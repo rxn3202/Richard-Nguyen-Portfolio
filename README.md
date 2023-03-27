@@ -26,4 +26,4 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ## Mock Up
 Please view live URL: [Portfolio](https://rxn3202.github.io/Richard-Nguyen-Portfolio/)
 
-![alt text](assets/images/default-image-placeholder.jpg)
+![alt text](assets/images/screenshot 2023-03-26 215550.png)
