@@ -1,113 +1,116 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Richard's Portfolio</title>
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/CSS/style.css">
-    <title>Richard Nguyen Portfolio</title>
-</head>
+    <body>
+        <!-- header and nav section start -->
+        <header>
+            <div><h1>Richard Nguyen</h1></div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#about-me">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#my-work">My Work</a>
+                    </li>
+                    <li>
+                        <a href="#contact-me">Contact Me</a>
+                    </li>
+                    <li>
+                        <a href="./assets/Richard Nguyen.docx" target="_blank">My Resume</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
 
-<!-- Start of body -->
-<body>
-    <!-- header section-->
-    <dvi class="header">
-        <h1> 
-            <a href="file:///C:/Users/Richard/bootcamp/Richard-Nguyen-Portfolio/index.html">Richard's Portfolio</a>
-        </h1>
-    <!-- Nav-->
-    <nav>
-        <ul>
-            <li><a href="#about-me">About Me</a></li>
-            <li><a href="#my-projects">My Projects</a></li>
-            <li><a href="#contact-me">Contact Me</a></li>
-            <li><a href="">Resume</li>
-        </ul>
-    </nav>
-    <!-- End of Nav -->
-</div>
-    <!-- end of header section -->
-    <!-- Hero section -->
-    <section class="hero">
-        <h2>Web Dev in Training </h2>
-    </section>
-    <!-- End of hero section -->
-
-    <!-- Start of About Me section -->
-    <section id="about-me" class="section">
-        <div class="section-title">
-            <h2>About Me</h2>
-        </div>
-
-        <div class="flex-row">
-            <!-- <img src="./assets/images/default-image-placeholder.jpg" class="photo"/> -->
-            <p>
-                I am a hard working IT professional with a passion for learning and growth. I've been working for Taco Bell for the past 5 years and have gained valuable experience in the field. Despite my history degree, I've decided to take on a new challenge and am currently studying full stack web development.
-            </p>
-        </div>
-    </section>
-    <!-- End of About Me section-->
-
-    <!-- Start of My Projects section-->
-    <section id="my-projects" class="section">
-        <div class="section-title">
-            <h2>
-                My Projects
-            </h2>
-        </div>
-
-    <div class="flex-row2">
-            <!-- main project content -->
-            <div class="main-project">
-                <div class="horiseon">
-                <p><a href="https://github.com/rxn3202/Horiseon-Code-Optimizaton">Horiseon Code Optomization</a></p>
-                </div>
+        <!-- hero image section start -->
+        <section class="hero">
+            <div>
+                <img src="./assets/images/rich.png" alt="An picture of Richard Nguyen">
             </div>
-        
+        </section>
 
-        <div class="side-projects">
-            <div class="prework">
-                <p><a href="https://github.com/rxn3202/prework-study-guide">Prework Study Guide</a></p>
+        <!-- about me section start -->
+        <section id="about-me" class="about-me">
+            <div class="title">
+                <h2>About Me</h2>
             </div>
             
-            <div class="conflict">
-                <p><a href="https://github.com/rxn3202/Concflict-Resoultion">Conflict Resolution</a></p>
+            <div>
+                <p>
+                    I am a hard working IT professional with a passion for learning and growth. I've been working for Taco Bell for the past 5 years and have gained valuable experience in the field. Despite my history degree, I've decided to take on a new challenge and am currently studying full stack web development.
+            </p>
             </div>
-        </div>
-    </div>
-    </section>
-    
-    <!-- Conact Me section -->
-    <section id="contact-me" class="section">
-        <div class="section-title">
-            <h2>
-                Contact Me
-            </h2>
-        </div>
-    
-    <div class="flex-row">
-        <div class="phone">
-            <a href="tel:562-230-4970">562-230-4970</a>
-        </div>
-        <div class="email">
-            <a href="mailto:1984richn@gmail.com">Email Me</a>
-        </div>
-        <div class="linkedin">
-            <a href="https://www.linkedin.com/in/richard-nguyen-114745146/">Linkedin</a>
-        </div>
-        <div class="github">
-            <a href="https://github.com/rxn3202">Github</a>
-        </div>
-    </div>
-    </section> 
-    <!-- End of Contact Me section-->
+        </section>
+        <!-- End of About Me section-->
+        <!-- my work section start -->
+        <section id="my-work" class="my-work">
+            <div class="title"><h2>My Work</h2></div>
+            <div class = "projects-style">
+                <div class="projects-style2">
 
-    <!-- start of footer section -->
-    <footer>
+                    <a href="https://github.com/rxn3202/Horiseon-Code-Optimizaton" target="_blank" class="horiseon">
+                        <div class="project-style3">
+                            <h3>Horiseon Code Optomization</h3>
+                            <p>HTML/CSS</p>
+                        </div>
+                    </a>
+                    <a href="https://github.com/rxn3202/prework-study-guide" target="_blank" class="prework">
+                        <div class="project-style3">
+                            <h3>Prework Study Guide</h3>
+                            <p>HTML/CSS/Git</p>
+                        </div>
+                    </a>
+                    <a href="https://github.com/rxn3202/Concflict-Resoultion/" target="_blank" class="conflict">
+                        <div class="project-style3">
+                            <h3>Conflict Resolution</h3>
+                            <p>HTML/CSS/JavaScript</p>
+                        </div>
+                    </a>
+                    <a href="/" target="_blank" class="project4">
+                        <div class="project-style3">
+                            <h3>Project 4</h3>
+                            <p>HTML/CSS/JavaScript</p>
+                        </div>
+                    </a>
+                    <a href="/" target="_blank" class="project5">
+                        <div class="project-style3">
+                            <h3>Project 5</h3>
+                            <p>HTML/CSS/JavaScript</p>
+                        </div>
+                    </a>
 
-    </footer>
-    <!-- end of footer section -->
-</body>
-<!-- End of body -->
+                </div>
+            </div>
+        </section>
 
+        <!-- contact info section -->
+        <footer id="contact-me">
+            <div class="title"><h2>Contact Me</h2></div>
+            <div class="content-wrapper">
+                <div id="contact-list">
+                    <ul>
+                        <li>
+                            <a href="mailto:rnguyen011@gmail.com">Email</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/rxn3202" target="_blank">GitHub</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/richard-nguyen-114745146/" target="_blank">LinkedIn</a>
+                        </li>
+                        <li>
+                            <a href="tel:562-230-4970">562-230-4970</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>
