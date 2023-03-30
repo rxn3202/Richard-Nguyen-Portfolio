@@ -1,4 +1,4 @@
-/* color variables for easier to remember names */
+/* color variables */
 :root {
     --primary: #233d8c;
     --secondary: white;
@@ -12,14 +12,14 @@
     box-sizing: border-box;
 }
 
-/* general settings for all body styling */
+/* general settings for body */
 body {
     font-family: Helvetica, Arial, sans-serif;
     color: var(--primary);
     background-color: var(--secondary);
 }
 
-/* header styling start */
+/* start of header */
 header {
     background-color: var(--primary);
     display: flex;
@@ -63,10 +63,10 @@ header nav ul li a:hover {
     border-radius: 15px;
 }
 
-/* header styling end */
+/* end of header */
 
 
-/* hero styling start */
+/* start of hero */
 .hero {
     background-image: url("../images/header.jpg");
     height: 600px;
@@ -80,9 +80,9 @@ header nav ul li a:hover {
 .hero img {
     height: 200px;
 }
-/* hero styling end */
+/* end of hero */
 
-/* utility class styling start */
+/* start of utility */
 .title {
     border-right: 5px solid var(--third);
     min-height: 100%;
@@ -96,9 +96,9 @@ header nav ul li a:hover {
     font-size: 48px;
 }
 
-/* utility class styling end */
+/* end of utility */
 
-/* about me section styling start */
+/* start of about me section  */
 .about-me {
     display: flex;
     justify-content: space-between;
@@ -112,9 +112,9 @@ header nav ul li a:hover {
     line-height: 1.6;
     width: 90%;
 }
-/* about me section styling end */
+/* end of about me section */
 
-/* my work section styling start */
+/* start of my work section */
 .my-work {
     padding: 30px 0;
     display: flex;
@@ -184,14 +184,13 @@ header nav ul li a:hover {
 }
 
 .project-style3 {
-    /*background-color: var(--secondary);*/
     background-color: lightgray;;
     color: var(--primary);
     padding: 10px;
 }
-/* my work section styling end */
+/* end of my work section */
 
-/* contact me section styling start */
+/* start of contact me and footer section */
 footer {
     display: flex;
     justify-content: space-between;
@@ -222,9 +221,7 @@ footer ul {
 }
 
 footer ul li {
-    /*padding-bottom: 15px;*/
     font-weight: bold;
-
 }
 
 footer ul li a {
@@ -237,11 +234,11 @@ footer ul li a {
 footer ul li a:hover {
     background: var(--third);
     color: var(--secondary);
-    border-radius: 15px;
+    border-radius: 15px;    
 }
-/* contact me section styling end */
+/* end of contact me and footer section */
 
-/* MEDIA QUERY FOR TABLET SCREENS AND SMALLER */
+/* media query for tablet screens and smaller */
 @media screen and (max-width: 768px) {
     .title h2 {
         font-size: 35px;
@@ -254,7 +251,7 @@ footer ul li a:hover {
     }
 }
 
-/* MEDIA QUERY FOR MOBILE PHONE SCREENS AND SMALLER */
+/* media query for mobile phone screens and smaller */
 @media screen and (max-width: 575px) {
     header {
         justify-content: center;
